@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
           SizedBox(
             height: 50.0,
           ),
-          //inner shadow while tapping
+          //inner shadow while tapping using animated_styled_widget package
           Center(
             child: GestureDetector(
               onTapDown: (TapDownDetails details) {
@@ -126,7 +126,7 @@ class _HomeScreenState extends State<HomeScreen> {
             height: 50.0,
           ),
 
-          //Inner shadow
+          //Inner shadow using morphable_shape package
           DecoratedShadowedShape(
             shape: RectangleShapeBorder(
                 borderRadius: DynamicBorderRadius.all(DynamicRadius.circular(
